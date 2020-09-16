@@ -28,3 +28,5 @@ letterCount('Reuben'); // Reuben, your name has 6 letters. That's a pretty long 
 3. Write a function that takes in an array of names. For each name, we should log a greeting to the console based on their name, and a greeting based on the number of letters.
 
 4. Write a function called `speakingGrandma` that takes in a string. Whatever you say to grandma (whatever you type in), she should respond with `'HUH?!  SPEAK UP, DEAR!'`', unless you shout it (type in all capitals). If you shout, she can hear you (or at least she thinks so) and yells back, `'NO, NOT SINCE 1938!'`
+
+5. Write a function that takes in an array of file names in `kebab-case` and returns a new array with the filenames transformed into `camelCase`. 
