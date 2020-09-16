@@ -49,3 +49,25 @@ function speakingGrandma(phrase){
 }
 speakingGrandma('Hello, grandma!');
 speakingGrandma('HELLO, GRANDMA');
+
+// 5
+
+function kebabToCamel(filenames){
+  const newFileNames = [];
+  for (let i = 0; i < filenames.length; i++) {
+    const filename = filenames[i];
+    const words = filename.split('-');
+    const newFileName = [];
+    for (let k = 0; k < words.length; k++) {
+      let word = words[k];
+      if(k !== 0){
+        word = word.charAt(0).toUpperCase() + word.slice(1);
+      }
+      newFileName.push(word);
+    }
+    newFileNames.push(newFileName.join(''));
+  }
+
+  return newFileNames;
+}
+console.log(kebabToCamel(['hello-there.txt', 'another-file.txt', 'multiple-words-together.jpg']));
