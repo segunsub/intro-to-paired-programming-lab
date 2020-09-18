@@ -4,8 +4,9 @@ console.log('Write your code below!')
 
 function sayHello(name){
   const greeting = `Hello, ${name}`;
-  console.log(greeting);
+  return greeting;
 }
+
 sayHello('Ann'); // Hello, Ann;
 sayHello('Reuben'); // Hello, Reuben;
 
@@ -13,7 +14,7 @@ sayHello('Reuben'); // Hello, Reuben;
 
 function letterCount(name){
   const count = name.length;
-  const greeting = `${name}, your name has ${count} letters.`
+  const greeting = `${sayHello(name)}. ${name}, your name has ${count} letters.`
   const longCount = 6;
 
   if(count < longCount){
