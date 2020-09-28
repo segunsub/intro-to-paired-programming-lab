@@ -15,25 +15,30 @@ if (count >=4){
 
 
 function greetPeople(names){
-
+  for(let i=0; i<names.length; i++) {
+    sayHello(names[i]);
+    letterCount(names[i]);
+  }
 }
+
 
 function speakingGrandma(phrase){
 
-}
+};
 
 
 function kebabToTitleCase(filenames){
 
-}
+};
 
 //Write your test cases below this comment
- sayHello('Ann')
- letterCount('Ann')
- sayHello('Segun')
- letterCount("Segun")
- sayHello('Catalina')
- letterCount('Catalina')
+ //sayHello('Ann')
+ //letterCount('Ann')
+ //sayHello('Segun')
+ //letterCount("Segun")
+ //sayHello('Catalina')
+ //letterCount('Catalina')
+ greetPeople(["Ann", "segun", "Catalina"]);
  
  
 
