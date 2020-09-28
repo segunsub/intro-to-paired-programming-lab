@@ -5,8 +5,14 @@ function sayHello(name){
 }
 
 function letterCount(name){
-
+let count = name.length
+if (count >=4){
+  console.log(`${name}, your name has ${count} letters. That's a pretty long name!`) 
+}else {
+  console.log(`${name}, your name has ${count} letters. That name's not that long!`) 
 }
+};
+
 
 function greetPeople(names){
 
@@ -23,7 +29,13 @@ function kebabToTitleCase(filenames){
 
 //Write your test cases below this comment
  sayHello('Ann')
- sayHello('segun')
+ letterCount('Ann')
+ sayHello('Segun')
+ letterCount("Segun")
+ sayHello('Catalina')
+ letterCount('Catalina')
+ 
+ 
 
 //do not editing anything below this comment.
 module.exports = {
