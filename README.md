@@ -5,9 +5,9 @@
 One partner should [fork this repo](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo). Then after it's been forked, [add the other partner(s) as collaborators](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository). Afterwards, all group members should be able to clone down the *forked repository* and all group members should be able to `push` and `pull` from that repository.
 
 ## Instructions
-Work with your partner to implement the below functions using pair programming! For each exercise, one partner should be the Navigator and the other should be the Driver.
+Work with your partner to implement the below functions using pair programming! Write your solution in the `app.js` file. For each exercise, one partner should be the Navigator and the other should be the Driver.
 
-1. Navigator should describe what the function should do.
+1. Navigator should describe what the function should do. 
    * Describe, in plain English, what the function should take in as a parameter and what it should console.log or return.
 2. Driver writes out the test cases.
    * For each problem, invoke the function with a parameter and describe the expected results.
