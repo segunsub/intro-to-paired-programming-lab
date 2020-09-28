@@ -66,7 +66,7 @@ Run `npm test` in the terminal to see if you've done problems 1 thorugh 4 correc
 
 ## Challenge Problem
 
-5. Write a function called `kebabToTitleCase` that takes in an array of file names in `kebab-case`. For each file name, it console.logs the file name transformed into `TitleCase`. At the end of the function, it should **return** a new array containing all the TitleCase files names!
+5. Write a function called `kebabToTitleCase` that takes in an array of file names in `kebab-case`. For each file name, it console.logs the file name transformed into `TitleCase`. At the end of the function, it should also **return** a new array containing all the TitleCase files names!
 
 ```js
 kebabToTitleCase(['hello-there.txt', 'another-file.txt', 'multiple-words-together.jpg'])
