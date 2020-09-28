@@ -103,37 +103,3 @@ describe("speakingGrandma", () => {
     expect(console.log).not.toHaveBeenCalledWith('NO, NOT SINCE 1938!');
   })
 });
-
-describe("kebabToTitleCase", () => {
-  test("should console log the correct transformed file names", () => {
-    app.kebabToTitleCase(['hello-there.txt', 'another-file.txt', 'multiple-words-together.jpg'])
-    expect(console.log).toHaveBeenCalledWith('HelloThere.txt')
-    expect(console.log).toHaveBeenCalledWith('AnotherFile.txt')
-    expect(console.log).toHaveBeenCalledWith('MultipleWordsTogether.jpg')
-  })
-
-  test("should return a new arrays of transformed file names", () => {
-    let newArray = app.kebabToTitleCase(['hello-there.txt', 'another-file.txt', 'multiple-words-together.jpg'])
-    expect(newArray[0]).toEqual('HelloThere.txt')
-    expect(newArray[1]).toEqual('AnotherFile.txt')
-    expect(newArray[2]).toEqual('MultipleWordsTogether.jpg')
-    expect(newArray.length).toEqual(3)
-  })
-
-  test("should not change the original array", () => {
-    let oldArray = ['hello-there.txt', 'another-file.txt', 'multiple-words-together.jpg']
-    app.kebabToTitleCase(oldArray)
-    expect(oldArray[0]).toEqual('hello-there.txt')
-    expect(oldArray[1]).toEqual('another-file.txt')
-    expect(oldArray[2]).toEqual('multiple-words-together.jpg')
-    expect(oldArray.length).toEqual(3)
-  })
-
-  test("should not be hard-coded", () => {
-    let newArray = app.kebabToTitleCase(['hello-friend.txt', 'some-file.txt', 'multiple-words-together.jpg'])
-    expect(newArray[0]).toEqual('HelloFriend.txt')
-    expect(newArray[1]).toEqual('SomeFile.txt')
-    expect(newArray[2]).toEqual('MultipleWordsTogether.jpg')
-    expect(newArray.length).toEqual(3)
-  })
-});
