@@ -2,7 +2,7 @@
 
 ## Set Up
 
-One partner should [fork this repo](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo). Then after it's been forked, [add the other partner(s) as collaborators](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository). Afterwards, all group members should be able to clone down the *forked repository* and all group members should be able to `push` and `pull` from that repository to their AWS environment.
+One partner should [fork this repo](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo). Then after it's been forked, [add the other partner(s) as collaborators](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository). Afterwards, all group members should be able to clone down the *forked repository* and all group members should be able to `push` and `pull` from that repository to their AWS environment. You can all work off the `master` branch, you do not need to create new branches unless you want to. 
 
 ## Instructions
 Work with your partner to implement the below functions using pair programming! Write your solution in the `app.js` file. For each exercise, one partner should be the Navigator and the other should be the Driver.
@@ -62,7 +62,7 @@ speakingGrandma('HELLO, GRANDMA'); // NO, NOT SINCE 1938!
 
 **Hint**: Use MDN documentation on [toUpperCase()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
 
-Run `npm test` in the terminal to see if you've done problems 1 thorugh 4 correctly.
+Run `npm test` in the terminal to see if you've done problems 1 thorugh 4 correctly. If you get an error `sh: jest: command not found npm ERR! Test failed.  See above for more details`, run `npm install` in your terminal, then try running `npm test` again.
 
 ## Challenge Problem
 
