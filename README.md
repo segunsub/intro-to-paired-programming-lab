@@ -34,6 +34,7 @@ Switch roles for each of the problems below.
 sayHello('Ann'); // Hello, Ann;
 sayHello('Reuben'); // Hello, Reuben;
 ```
+Once you finish this problem, the driver should commit and push your code up to Github. Verify that your changes are in the remote repo, then have your group members pull those changes down. Switch roles. 
 
 2. Write a function called `letterCount` that takes in one parameter, a person's name, and logs a greeting including the number of letters to the console. If the name is longer than four letters, it should say `"That's a pretty long name!"`, otherwise, it should say `"That name's not that long!"`
 
@@ -41,6 +42,8 @@ sayHello('Reuben'); // Hello, Reuben;
 letterCount('Ann'); // Ann, your name has 3 letters. That name's not that long!
 letterCount('Reuben'); // Reuben, your name has 6 letters. That's a pretty long name!
 ```
+
+Once you finish this problem, the driver should commit and push your code up to Github. Verify that your changes are in the remote repo, then have your group members pull those changes down. Switch roles. 
 
 3. Write a function called `greetPeople` that takes in an array of names as an argument. For each name, we should log a greeting to the console based on their name, and a greeting based on the number of letters. **You should leverage the methods you've already written**. As a best practice, programmers follow the DRY (Don't Repeat Yourself) principle.
 
