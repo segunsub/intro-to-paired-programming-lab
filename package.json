@@ -1,0 +1,26 @@
+{
+  "name": "intro-to-paired-programming-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Marcy-Lab-School/intro-to-paired-programming-lab.git"
+  },
+  "keywords": [
+    "paired",
+    "programming"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Marcy-Lab-School/intro-to-paired-programming-lab/issues"
+  },
+  "homepage": "https://github.com/The-Marcy-Lab-School/intro-to-paired-programming-lab#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
