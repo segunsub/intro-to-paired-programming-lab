@@ -1,4 +1,4 @@
-console.log("Write your code below!")
+//console.log("Write your code below!")
 
 function sayHello(name){
   console.log(`Hello, ${name}`)
@@ -23,7 +23,11 @@ function greetPeople(names){
 
 
 function speakingGrandma(phrase){
-
+if (phrase == phrase.toUpperCase()) {
+  console.log('NO, NOT SINCE 1938!') 
+}else {
+  console.log( 'HUH? SPEAK UP, DEAR!')
+}
 };
 
 
@@ -38,9 +42,9 @@ function kebabToTitleCase(filenames){
  //letterCount("Segun")
  //sayHello('Catalina')
  //letterCount('Catalina')
- greetPeople(["Ann", "segun", "Catalina"]);
- 
- 
+ //greetPeople(["Ann", "segun", "Catalina"]);
+ speakingGrandma('hello')
+ speakingGrandma('HELLO')
 
 //do not editing anything below this comment.
 module.exports = {
