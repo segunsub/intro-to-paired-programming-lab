@@ -11,11 +11,13 @@ Work with your partner to implement the functions under the "Problems" section b
    * Describe, in plain English, what the function should take in as a parameter and what it should console.log or return.
 2. Driver writes out the test cases.
    * For each problem, invoke the function with a parameter and describe the expected results.
-   * We've suggested some test cases for the some of the problems, but you should come up with some of your own, too!
-3. Navigator(s) explains how to implement the function while Driver writes the code so those test cases pass!
-4. Driver tests the code, does some refactoring if needed, or adds additional test cases if desired.
+   * We've suggested some test cases for the problems, but you should come up with some of your own, too!
+3. Navigator(s) explains how to implement the function while Driver writes the code.
+4. Driver tests the code by running the applcation using `node app.js` in the terminal.
+   * Did the code work? Did it print out what youw expected it you print out? 
+   * Do some refactoring if needed, or add additional test cases if desired.
 
-Switch roles for each of the problems below. Once you finish this problem, the driver should commit and push your code up to Github. Verify that your changes are in the remote repo, then have your group members pull those changes down. 
+Switch roles for each of the problems below. Once you finish this problem, the driver should commit and push the code up to Github. Verify that your changes are in the remote repo, then have your group members pull those changes down. 
 
 ## How do I know if the code is working?
 1. You should manually test your code by running the program. From the project's root directory, type `node app.js` in the terminal and see if the program does out what you expect it to.
