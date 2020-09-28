@@ -13,7 +13,7 @@ Work with your partner to implement the below functions using pair programming! 
    * For each problem, invoke the function with a parameter and describe the expected results.
    * We've suggested some test cases for the some of the problems, but you should come up with some of your own, too!
 3. Navigator(s) explains how to implement the function while Driver writes the code so those test cases pass!
-4. Driver does some refactoring if needed, or adds additional test cases if needed.
+4. Driver tests the code, does some refactoring if needed, or adds additional test cases if desired.
 
 Switch roles for each of the problems below.
 
