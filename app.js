@@ -6,7 +6,7 @@ function sayHello(name){
 
 function letterCount(name){
 let count = name.length
-if (count >=4){
+if (count > 4){
   console.log(`${name}, your name has ${count} letters. That's a pretty long name!`) 
 }else {
   console.log(`${name}, your name has ${count} letters. That name's not that long!`) 
