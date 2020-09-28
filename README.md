@@ -15,7 +15,7 @@ Work with your partner to implement the functions under the "Problems" section b
 3. Navigator(s) explains how to implement the function while Driver writes the code so those test cases pass!
 4. Driver tests the code, does some refactoring if needed, or adds additional test cases if desired.
 
-Switch roles for each of the problems below.
+Switch roles for each of the problems below. Once you finish this problem, the driver should commit and push your code up to Github. Verify that your changes are in the remote repo, then have your group members pull those changes down. 
 
 ## How do I know if the code is working?
 1. You should manually test your code by running the program. From the project's root directory, type `node app.js` in the terminal and see if the program does out what you expect it to.
@@ -34,7 +34,6 @@ Switch roles for each of the problems below.
 sayHello('Ann'); // Hello, Ann;
 sayHello('Reuben'); // Hello, Reuben;
 ```
-Once you finish this problem, the driver should commit and push your code up to Github. Verify that your changes are in the remote repo, then have your group members pull those changes down. Switch roles. 
 
 2. Write a function called `letterCount` that takes in one parameter, a person's name, and logs a greeting including the number of letters to the console. If the name is longer than four letters, it should say `"That's a pretty long name!"`, otherwise, it should say `"That name's not that long!"`
 
@@ -42,8 +41,6 @@ Once you finish this problem, the driver should commit and push your code up to 
 letterCount('Ann'); // Ann, your name has 3 letters. That name's not that long!
 letterCount('Reuben'); // Reuben, your name has 6 letters. That's a pretty long name!
 ```
-
-Once you finish this problem, the driver should commit and push your code up to Github. Verify that your changes are in the remote repo, then have your group members pull those changes down. Switch roles. 
 
 3. Write a function called `greetPeople` that takes in an array of names as an argument. For each name, we should log a greeting to the console based on their name, and a greeting based on the number of letters. **You should leverage the methods you've already written**. As a best practice, programmers follow the DRY (Don't Repeat Yourself) principle.
 
