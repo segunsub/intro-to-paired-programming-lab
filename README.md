@@ -5,7 +5,7 @@
 One partner should [fork this repo](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo). Then after it's been forked, [add the other partner(s) as collaborators](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository). Afterwards, all group members should be able to clone down the *forked repository* and all group members should be able to `push` and `pull` from that repository to their AWS environment. You can all work off the `master` branch, you do not need to create new branches unless you want to. 
 
 ## Instructions
-Work with your partner to implement the below functions using pair programming! Write your solution in the `app.js` file. For each exercise, one partner should be the Navigator and the other should be the Driver.
+Work with your partner to implement the functions under the "Problems" section below. Write your solution in the `app.js` file. For each exercise, one partner should be the Navigator and the other should be the Driver.
 
 1. Navigator(s) should describe what the function should do. 
    * Describe, in plain English, what the function should take in as a parameter and what it should console.log or return.
@@ -26,7 +26,7 @@ Switch roles for each of the problems below.
 #### Confused about anything?
 * Watch this [video tutorial](https://youtu.be/bIbXFKnrQj4) on how to to set up and do paired programming activites. 
 
-### Problems
+## Problems
 
 1. Write a function called `sayHello` that takes in one parameter, a person's name, and logs a greeting to the console based on their name.
 
